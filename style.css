@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Merriweather:wght@300;400;700;900&family=Nova+Script&family=Roboto+Slab:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+/* 'Montserrat', sans-serif;   'Roboto Slab', serif;     'Kanit', sans-serif;    'Palanquin Dark', sans-serif;  */ 
+
+:root{
+    --font-principal: 'Montserrat', sans-serif;
+    --cor-principal: rgb(5,74,227);
+    --cor-secundaria:rgb(63, 63, 71);
+    --cor-terciaria: rgb(22, 93, 135);
+    --cor-branco: rgb(250, 254, 255);
+}
+
+body{
+    background-color: var(--cor-branco);
+    font-family: var(--font-principal);
+    color: var(--cor-terciaria);
+}
+
+.hide{
+    display: none;
+}
+
+.cabecalho{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    background-color: rgb(138, 141, 144);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 0.5em 0.8em;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    border: solid 2px var(--cor-terciaria);
+}
+
+.cabecalho__icone{
+    width: 80px;
+}
+
+.cabecalho__texto{
+    margin-right: 15px;
+}
+
+.home__img{
+    width: 100%;
+}
+
+.home__texto{
+    font-size: 1rem;
+    color: var(--cor-branco);
+    background-color: var(--cor-terciaria);
+    padding: 0.4em;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.sobre_nos{
+    padding: 0.5em 2em;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-branco);
+    background-color: var(--cor-secundaria);
+    margin: 1em 0em 0em 0em;
+    cursor: pointer;
+}
+
+.sobre_nos_texto{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    padding: 1em 0.5em;
+}
+
+.sobre_nos_titulo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+.sobre_nos_titulo2{
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.servicos_titulo{
+    font-family: 'Libre Baskerville', serif;
+    margin: 1em 1em 0.2em 1em;
+}
+
+.servicos_texto{
+    margin: 0.5em 1em;
+    font-size: 0.8rem;
+}
+
+.servico_img{
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.servico_titulo2{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.banner_texto{
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    font-size: 0.8rem;
+    padding: 1em;
+}
+
+.ofertas{
+    margin: 1em;
+}
+
+.oferta_titulo{
+    font-weight: 700;
+    margin: 0.7em 0;
+}
+
+.oferta_div{
+    margin: 30px 0;
+}
+
+.oferta_texto{
+    font-size: 0.8rem;
+}
+
+.ofeta_img1{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.ofeta_img2{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.ofeta_img3{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.desenvolvimento{
+    margin: .3em 1em;
+    font-size: 0.8rem;
+}
+
+.desenvolvimento__titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cor-terciaria);
+    margin-bottom: .8em;
+}
+
+.desenv__titulo{
+    font-weight: 700;
+}
+
+.desenv__separador{
+    margin-bottom: 1em;
+}
+
+.showcase{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.showcase_separador{
+    display: flex;
+    margin: 20px 60px 10px 20px;
+    justify-content: space-between;
+}
+
+.showcase_img{
+    width: 28%;
+}
+
+.showcase_img1{
+    width: 50%;
+}
+
+.showcase_nome{
+    font-size: .7rem;
+}
+
+.business_pai{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    font-family: 'Kanit', sans-serif;
+    padding: 0.7em 1em;
+    font-size: 0.8rem;
+    border: solid 2px #ffd700;
+}
+
+.business_separador{
+    margin: 1em 0;
+}
+
+.business_texto{
+    margin: 0.3em 0;
+    font-size: 0.9rem;
+}
+
+.business_preco{
+    margin: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-principal);
+    background-color: var(--cor-branco);
+    border-radius: 20%;
+    padding: 1em 1em 1.4em 1em;
+    font-size: 0.6rem;
+}
+
+.business_apenas{
+    font-size: 0.8rem;
+    margin: 0.4em 0 0 0;
+}
+
+.business_preco_preco{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 1.8rem;
+    margin: 0.6em 0;
+}
+
+.conheca_pacote{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    padding: 0.5em;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.pacote_separador{
+    margin-top: 20px;
+    padding: 0 1em;
+}
+
+.pacote_tipos{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    margin: 0.6em 0;
+    padding: 0.4em;
+    border-radius: 10px;
+}
+
+.pacote_tipos1{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    margin: 0.6em 0;
+    padding: 0.4em;
+    border-radius: 10px;
+    border: solid 3px #ffd700;
+}
+
+.pacote_nome{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.pacote_preco{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 2rem;
+    margin: 0.7em 0;
+}
+
+.pacote_descricao{
+    font-size: 0.8rem;
+}
+
+.pacote_recado{
+    font-size: 0.5rem;
+    margin: 2em;
+}
+
+.publicoAlvo_titulo{
+    margin: 0.4em;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.publicoAlvo_tipos{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0.2em;
+    border: solid 2px var(--cor-principal);
+}
+
+.publicoAlvo_separador2{
+    display: flex;
+}
+
+.publicoAlvo_nome{
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.publicoAlvo_descricao{
+    font-size: 0.55rem;
+    margin: 0.3em;
+}
+
+.fac_pergunta{
+    font-size: 0.8rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    border: solid 2px var(--cor-principal);
+    border-radius: 5px;
+    padding: 0.4em 0.2em;
+    margin-top: 1em;
+    color: var(--cor-principal);
+}
+
+.fac_resposta{
+    font-size: 0.7rem;
+    padding: 0.3em 0.5em;
+}
+
+.email_titulo{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.email input{
+    width: 95%;
+    padding: 0.5em 0;
+    margin: 0 0.2em;
+}
+
+.email input[type=text]{
+    height: 50px;
+}
+
+.email_tipo{
+    margin: 0.4em;
+    font-weight: 700;
+    padding: 0.4em;
+}
+
+.email_botao{
+    margin: 0.5em;
+}
+
+.entre__em__contato{
+    border: solid 3px var(--cor-principal);
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+}
+
+.entre__em__contato__email{
+    display: flex;
+    align-items: center;
+}
+
+.entre__em__contato__email__imagem{
+    margin: 0.3em 0.6em;
+    width: 15px;
+}
+
+.entre__em__contato__email__texto{
+    font-size: 0.8rem;
+}
+
+.entre__em__contato__seguro{
+    width: 100px;
+    padding: 0.2em 0.5em;
+}
+
+.rodape{
+    font-size: .7rem;
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: .6em;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 501px) {
+    .cabecalho{
+        font-size: 2.8rem;
+        padding: 0.7em 3em;
+    }
+
+    .cabecalho__icone{
+        width: 150px
+    }
+
+    .home__img{
+        width: 60%;
+        display: block;
+        margin: 15px auto;
+        border-radius: 10px;
+    }
+
+    .home__texto{
+        font-size: 2rem;
+    }
+
+    .sobre_nos{
+        margin: 1em 82% 1em 2em;
+    }
+
+    .sobre_nos_texto{
+        padding: 1em 3em;
+    }
+
+    .sobre_nos_titulo{
+        font-size: 2rem;
+    }
+
+    .sobre_nos_titulo2{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .servicos{
+        text-align: center;
+    }
+
+    .servicos_titulo{
+        font-size: 2rem;
+    }
+
+    .servico_div{
+        display: flex;
+        margin: 20px 100px;
+        justify-content: space-between;
+    }
+
+    .servico_img{
+        width: 20%;
+        margin: 0 80px 20px 70px;
+        border-radius: 10px;
+        padding: 0 2em;
+    }
+
+    .servico_titulo2{
+        font-size: 1.8rem;
+    }
+
+    .servico_div_sep1{
+        margin: 20px
+    }
+
+    .servicos_texto{
+        font-size: 1.1rem;
+    }
+
+    .banner_texto{
+        padding: 2em;
+        font-size: 1.2rem;
+        margin: 1em 3em;
+        border-radius: 20px;
+    }
+
+    .ofertas{
+        display: flex;
+        margin: 0 5em;
+        justify-content: space-between;
+    }
+
+    .ofeta_img1{
+        margin: 1.2em auto;
+        width: 32%;
+    }
+
+    .oferta_texto{
+        font-size: 1rem;
+    }
+
+    .oferta_div{
+        margin: 0 1em;
+    }
+
+    .desenvolvimento{
+        margin: 0.5em 5em;
+        background-color: var(--cor-terciaria);
+        color: var(--cor-branco);
+        border-radius: 15px;
+    }
+
+    .desenvolvimento__titulo{
+        font-size: 2rem;
+        color: var(--cor-branco);
+        padding-top: 0.4em;
+    }
+
+    .desenvolvimento__separador{
+        display: flex;
+    }
+
+    .desenv__separador{
+        margin: 1em;
+    }
+
+    .desenv__titulo{
+        font-size: 1.2rem;
+    }
+
+    .desenv__texto{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .showcase_separador{
+        display: flex;
+        margin: 20px 150px 10px 20px;
+        justify-content: space-between;
+    }
+
+    .showcase{
+        margin-top: 40px;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+        align-items: center;
+    }
+
+    .showcase_nome{
+        font-size: 1rem;
+    }
+
+    .showcase_img{
+        width: 20%;
+    }
+
+    .showcase_img1{
+        width: 40%;
+    }
+
+    .business_pai{
+        padding: 0.7em 1em;
+        font-size: 1.2rem;
+    }
+    
+    .business_texto{
+        margin: 0.3em 0;
+        font-size: 1.4rem;
+    }
+    
+    .business_preco{
+        margin: 2em 15em;
+        border-radius: 20%;
+        padding: 1.5em 1em 2em 1em;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .business_apenas{
+        font-size: 1.1rem;
+        margin: 0.4em 0 0 0;
+    }
+    
+    .business_preco_preco{
+        text-align: center;
+        font-size: 3rem;
+        margin: 0.6em auto;
+    }
+
+    .conheca_pacote{
+        margin: 1em 10em;
+        padding: 0.8em;
+        font-size: 1.4rem;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .pacote_separador{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pacote_tipos{
+        margin: 0 30px;
+        padding: 1em 1em;
+        border-radius: 10px;
+    }
+
+    .pacote_tipos1{
+        margin: 0 30px;
+        padding: 1em 1em;
+        border-radius: 18px;
+        border: solid 8px #ffd700;
+    }
+
+    .pacote_recado{
+        font-size: 0.6rem;
+    }
+
+    .publicoAlvo{
+        margin: 0 1em;
+    }
+
+    .publicoAlvo_titulo{
+        font-size: 2rem;
+        margin: 1em auto;
+    }
+
+    .publicoAlvo_separador1{
+        display: flex;
+    }
+
+    .publicoAlvo_nome{
+        font-size: 0.9rem;
+    }
+
+    .publicoAlvo_descricao{
+        align-items: stretch;
+        font-size: 0.7rem;
+    }
+
+    .fac_pergunta{
+        margin: 0.3em 5em;
+    }
+
+    .fac_pergunta:hover{
+        scale: 1.02;
+    }
+
+    .fac_resposta{
+        margin: 0.2em 5.5em;
+        font-size: 0.8rem;
+    }
+
+    .entre__em__contato__email__texto{
+        font-size: 1rem;
+    }
+
+    .entre__em__contato__seguro{
+        width: 150px;
+    }
+
+    .rodape{
+        font-size: 1rem;
+        padding: 0.4em;
+    }
+}
