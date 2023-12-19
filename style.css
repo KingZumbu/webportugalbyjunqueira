@@ -391,6 +391,18 @@ body{
     padding: 0.2em 0.5em;
 }
 
+.whats{
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    position: fixed;
+}
+
+.whats_img{
+    width: 70px;
+    border-radius: 8px;
+}
+
 .rodape{
     font-size: .7rem;
     background-color: var(--cor-principal);
@@ -653,6 +665,11 @@ body{
 
     .entre__em__contato__seguro{
         width: 150px;
+    }
+
+    .whats_img{
+        width: 100px;
+        border-radius: 10px;
     }
 
     .rodape{
