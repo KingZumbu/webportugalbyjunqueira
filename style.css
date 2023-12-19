@@ -27,7 +27,7 @@ body{
     display: flex;
     font-size: 1.2rem;
     justify-content: space-between;
-    background-color: rgb(138, 141, 144);
+    background: linear-gradient(to right, #8a8d90 60%, #e1e1e1);
     color: var(--cor-branco);
     text-align: center;
     padding: 0.5em 0.8em;
