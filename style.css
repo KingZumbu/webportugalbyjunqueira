@@ -17,6 +17,7 @@ body{
     background-color: var(--cor-branco);
     font-family: var(--font-principal);
     color: var(--cor-terciaria);
+    width: 100vw;
 }
 
 .hide{
@@ -58,10 +59,17 @@ body{
     text-align: center;
 }
 
+.botao__em__cima{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+
+}
+
 .sobre_nos{
-    margin: 1em 1em 0 1em;
-    padding: 0.5em 2em;
-    font-size: 1rem;
+    margin: 1em 1em;
+    padding: 0.5em 1em;
+    font-size: 0.6rem;
     font-weight: 600;
     color: var(--cor-branco);
     background-color: var(--cor-secundaria);
@@ -158,15 +166,18 @@ body{
 }
 
 .desenvolvimento{
-    margin: .3em 1em;
+    margin: .3em 0;
     font-size: 0.8rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    padding: 1em 1em;
 }
 
 .desenvolvimento__titulo{
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
-    color: var(--cor-terciaria);
+    color: var(--cor-branco);
     margin-bottom: .8em;
 }
 
@@ -444,7 +455,9 @@ body{
     }
 
     .sobre_nos{
-        margin: 1em 82% 1em 2em;
+        margin: 1em;
+        font-size: 1em;
+        margin: 1em 5em;
     }
 
     .sobre_nos_texto{
@@ -503,7 +516,7 @@ body{
     .ofertas{
         display: flex;
         margin: 0 5em;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .ofeta_img1{
@@ -516,13 +529,44 @@ body{
     }
 
     .oferta_div{
-        margin: 0 1em;
+        margin: 0 3em;
+    }
+
+    .oferta_titulo{
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    .oferta_texto{
+        color: black;
+        font-size: 0.8rem;
+        padding: 1em 0;
+    }
+
+    .ofertaHH1{
+        background-color: rgb(252, 177, 38);
+        border-radius: 20px;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .ofertaHH2{
+        background-color: yellow;
+        border-radius: 20px;
+        width: 100%;
+        padding: 1em;
+        margin-left: 6em;
+    }
+
+    .ofertaHH3{
+        background-color: rgb(219, 158, 201);
+        border-radius: 20px;
+        width: 100%;
+        padding: 1em;
     }
 
     .desenvolvimento{
         margin: 0.5em 5em;
-        background-color: var(--cor-terciaria);
-        color: var(--cor-branco);
         border-radius: 15px;
     }
 
