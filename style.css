@@ -67,7 +67,7 @@ body{
 }
 
 .sobre_nos{
-    margin: 1em 1em;
+    margin: 1em 0.8em;
     padding: 0.5em 1em;
     font-size: 0.6rem;
     font-weight: 600;
@@ -258,7 +258,7 @@ body{
     background-color: var(--cor-secundaria);
     color: var(--cor-branco);
     padding: 0.5em;
-    margin: 0 1em;
+    margin: 1em 1em;
     font-size: 0.8rem;
     text-align: center;
     font-weight: 700;
