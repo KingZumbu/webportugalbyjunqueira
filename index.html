@@ -6,15 +6,16 @@
     <title>Web Portugal by Junqueira</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
     <script src="main.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__icone" src="/img/logo.png" alt="Logo da Web Portugal by Junqueira">
-        <p class="cabecalho__texto">Web Portugal by Junqueira</p></header>
+        <p class="cabecalho__texto">Aproveite essa oportunidade AGORA</p></header>
     <main>  
         <section class="home">
-            <img class="home__img" src="/img/animaçãoAmigavel.jpg" alt="homem no computador">
+            <img class="servico_texto paraCelular" src="/img/capacel.png" alt="homem no computador">
+            <img class="servico_texto paraComputador" src="/img/capacomp.png" alt="homem no computador">
             <p class="home__texto">Conectando Seu Negócio ao Mundo Online</p>
         </section>
         <section class="botao__em__cima">
@@ -40,6 +41,7 @@
                 <p class="sobre_nos_paragrafo">Nossa missão é ser a solução perfeita para pequenos empreendedores que buscam uma presença online significativa. Trabalhamos incansavelmente para superar expectativas, oferecendo serviços de qualidade que impulsionam o sucesso dos nossos clientes.</p>
                 <br>
                 <p class="sobre_nos_paragrafo">Junte-se a nós na jornada de transformar ideias em realidade digital. Seja bem-vindo à Web Portugal, onde a sua presença online é moldada com paixão, compromisso e inovação.</p>
+                <i class="fechar-icon fas fa-times"></i>
             </div>
         </section>
         <section class="desenvolvimento hide" id="mostra_processos" onclick="desaparecer('processos')">
@@ -86,6 +88,7 @@
                     <p class="desenv__texto">Para clientes que buscam orientação estratégica contínua, oferecemos consultoria para melhorar a presença online, impulsionar o tráfego e otimizar o desempenho.</p>
                 </div>
             </div>
+            <i class="fechar-icon fas fa-times"></i>
         </section>
         <section class="publicoAlvo hide" id="mostra_publico" onclick="desaparecer('publico')">
             <h1 class="publicoAlvo_titulo">Públicos Possíveis:</h1>
@@ -179,48 +182,21 @@
                     </div>
                 </div>
             </div>
+            <i class="fechar-icon fas fa-times"></i>
         </section>
         <section class="servicos">
             <h1 class="servicos_titulo">Nossos Serviços: Transformando Visões em Presenças Digitais </h1>
             <br>
-            <p class="servicos_texto">Na Web Portugal, estamos empenhados em criar experiências digitais únicas que elevam a presença online de pequenas empresas e microempreendedores individuais. Nossos serviços abrangem desde o desenvolvimento personalizado de websites até a construção de uma identidade visual que destaque seu negócio no vasto cenário digital.</p>
-            <div class="servico_div">
-                <img src="/img/tela1.jpg" alt="Homem no Computador" class="servico_img">
-                <div class="servico_div_sep1">   
-                    <h2 class="servico_titulo2">1. Desenvolvimento Web Personalizado:</h2>
-                    <p class="servicos_texto">Cada projeto é uma colaboração única, começando com uma análise aprofundada das suas metas e visão.</p>
-                    <p class="servicos_texto">Utilizamos tecnologias modernas para criar websites personalizados que não apenas impressionam visualmente, mas também oferecem funcionalidades excepcionais.</p>
-                </div>
+            <p class="servico_titulo2">Na Web Portugal, estamos empenhados em criar experiências digitais únicas que elevam a presença online de pequenas empresas e microempreendedores individuais. Nossos serviços abrangem desde o desenvolvimento personalizado de websites até a construção de uma identidade visual que destaque seu negócio no vasto cenário digital.</p>
+            <div class="paraComputador">
+                <img src="/img/slide1.jpg" alt="foto de propaganda" class="servico_texto">
+                <img src="/img/slide2.jpg" alt="foto de propaganda" class="servico_texto">
+                <img src="/img/slide3.jpg" alt="foto de propaganda" class="servico_texto">
             </div>
-            <div class="servico_div">
-                <div class="servico_div_sep1">    
-                    <h2 class="servico_titulo2">2. Identidade Visual Exclusiva:</h2>
-                    <p class="servicos_texto">Desenvolvemos logotipos, paletas de cores e elementos visuais exclusivos que comunicam a singularidade da sua marca.</p>
-                    <p class="servicos_texto">Cada detalhe é escolhido estrategicamente para garantir uma presença visual coerente e memorável.</p>
-                </div>
-                <div class="servico_div_sep1">
-                    <h2 class="servico_titulo2">3. Acessibilidade e Responsividade:</h2>
-                    <p class="servicos_texto">Garantimos que seu website seja acessível a todos, independentemente do dispositivo utilizado.</p>
-                    <p class="servicos_texto">Nossos designs responsivos asseguram uma experiência de usuário otimizada em computadores, tablets e smartphones.</p>
-                </div>
-            </div>
-            <div class="servico_div">
-                <div class="servico_div_sep1">    
-                    <h2 class="servico_titulo2">4. Consultoria Estratégica:</h2>
-                    <p class="servicos_texto">Oferecemos consultoria personalizada para orientar suas decisões de presença online.</p>
-                    <p class="servicos_texto">Desde escolhas de design até estratégias de conteúdo, estamos aqui para maximizar o impacto do seu negócio na web.</p>
-                </div>
-                <img src="/img/tela4.jpg" alt="Pessoas Conversando em um escritório" class="servico_img">
-            </div>
-            <div class="servico_div">
-                <div class="servico_div_sep1">    
-                    <h2 class="servico_titulo2">5. Manutenção Contínua:</h2>
-                    <p class="servicos_texto">Nosso compromisso vai além da entrega do projeto. Oferecemos serviços de manutenção contínua para garantir que seu website esteja sempre atualizado e funcionando de maneira eficaz.</p>
-                </div>
-                <div class="servico_div_sep1">
-                    <h2 class="servico_titulo2">6. Soluções Acessíveis para Pequenos Negócios:</h2>
-                    <p class="servicos_texto">Acreditamos que a excelência não deve ser um luxo. Nossos preços acessíveis tornam possível para pequenas empresas obterem uma presença online de alta qualidade.</p>
-                </div>
+            <div class="paraCelular">
+                <img src="/img/slider1.jpg" alt="foto de propaganda" class="servico_texto">
+                <img src="/img/slider2.jpg" alt="foto de propaganda" class="servico_texto">
+                <img src="/img/slider3.jpg" alt="foto de propaganda" class="servico_texto">
             </div>
             <div class="banner_texto">
                 <p>Na WEB PORTUGAL BY JUNQUEIRA, não apenas construímos websites; forjamos conexões digitais que contam a história única do seu negócio. Seja um microempreendedor individual ou uma pequena empresa, estamos prontos para transformar sua visão em uma presença digital impactante.</p>
@@ -228,21 +204,33 @@
                 <p>Descubra o potencial da sua empresa online com os serviços personalizados da WEB PORTUGAL BY JUNQUEIRA. Vamos moldar o futuro digital do seu negócio, juntos.</p>
             </div>
         </section>
-        <section class="ofertas">
-            <div class="oferta_div1 ofertaHH1">
-                <h class="oferta_titulo">Sem o "Faça você mesmo"</h>
-                <p class="oferta_texto">Na Web Portugal, acreditamos que ter uma equipe dedicada é a chave para um site excepcional. Evite o 'faça você mesmo' e confie em profissionais para garantir um serviço impecável e personalizado, construindo sua presença online com qualidade e expertise.</p>
-                <img src="/img/computador sem fundo.jpg" alt="computador" class="ofeta_img1">
+        <section class="card__Mor">
+            <div class="card">
+                <div class="content__card" id="card1">
+                    <div class="card__texto">
+                        <h class="oferta_titulo">Sem o "Faça você mesmo"</h>
+                        <p class="oferta_texto">Na Web Portugal, acreditamos que ter uma equipe dedicada é a chave para um site excepcional. Evite o 'faça você mesmo' e confie em profissionais para garantir um serviço impecável e personalizado, construindo sua presença online com qualidade e expertise.</p>
+                    </div>
+                    <img src="/img/computador sem fundo.jpg" alt="Computador" class="card__img">
+                </div>
             </div>
-            <div class="oferta_div ofertaHH2">
-                <h class="oferta_titulo">Personalização Excepcional</h>
-                <p class="oferta_texto">Na Web Portugal, garantimos a personalização excepcional do seu site para refletir a singularidade do seu negócio. Cada detalhe é cuidadosamente trabalhado para criar uma presença online memorável.</p>
-                <img src="/img/sitePersonalizado.jpg" alt="Site Personalizado" class="ofeta_img2">
+            <div class="card">
+                <div class="content__card" id="card2">
+                    <div class="card__texto">
+                        <h class="oferta_titulo">Personalização Excepcional</h>
+                        <p class="oferta_texto">Na Web Portugal, garantimos a personalização excepcional do seu site para refletir a singularidade do seu negócio. Cada detalhe é cuidadosamente trabalhado para criar uma presença online memorável.</p>
+                    </div>
+                    <img src="/img/sitePersonalizado.jpg" alt="site Personalizado" class="card__img">
+                </div>
             </div>
-            <div class="oferta_div ofertaHH3">
-                <h class="oferta_titulo">Preços Imbatíveis</h>
-                <p class="oferta_texto">Destacamos-nos por oferecer qualidade a preços acessíveis. Na Web Portugal, acreditamos que a excelência digital não deve ser um luxo. Proporcionamos soluções de classe mundial, independentemente do tamanho do seu orçamento.</p>
-                <img src="/img/preço baixo.jpg" alt="Preço Baixo" class="ofeta_img3">
+            <div class="card">
+                <div class="content__card" id="card3">
+                    <div class="card__texto">
+                        <h class="oferta_titulo">Preços Imbatíveis</h>
+                        <p class="oferta_texto">Destacamos-nos por oferecer qualidade a preços acessíveis. Na Web Portugal, acreditamos que a excelência digital não deve ser um luxo. Proporcionamos soluções de classe mundial, independentemente do tamanho do seu orçamento.</p>
+                    </div>
+                    <img src="/img/preço baixo.jpg" alt="Computador" class="card__img">
+                </div>
             </div>
         </section>
         <section class="pacote">
@@ -381,5 +369,12 @@
         </a>
     </div>
     <footer><p class="rodape">Web Portugal by Junqueira</p></footer>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"),{
+        max: 25,
+        speed: 400,
+        glare: true,
+    });
+    </script>
 </body>
 </html>
